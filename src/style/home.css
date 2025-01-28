@@ -1,0 +1,174 @@
+.main {
+    max-width: 1200px;
+    margin: 70px auto;
+    padding: 20px;
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(237, 41, 74);
+    position: fixed;
+    padding: 15px 15%;
+    top: 0;
+    left: 0;
+    width: 70%;
+    z-index: 1000;
+    border-radius: 10px;
+}
+.navbar img{
+    width: 80px;
+    border-radius: 43%;
+}
+.navbar h3{
+    margin-left: -9rem;
+    color: palegoldenrod;
+    font-size: 1.2rem;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid black;
+    color: rgb(21, 21, 21);
+}
+
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2); /* Hafif beyaz arka plan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    padding: 30px ;
+    border-radius: 10px;
+    margin: 3rem 0 ;
+}
+.first-part img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.fields {
+    text-align: start;
+    font-size: 16px;
+}
+
+.second-part {
+    background: lightblue;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 2rem 0 ;
+}
+.third-part{
+    background: rgba(255, 255, 255, 0.2); /* Hafif beyaz arka plan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Gölge efekti */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 2rem 0 ;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2); /* Hafif beyaz arka plan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05); /* Kartı hafifçe büyütür */
+}
+.card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.navlink {
+    margin-bottom: 20px;
+    background: palegoldenrod;
+    transition: 0.4s;
+}
+
+.navlink:hover {
+    background: transparent;
+    border: 1px solid black;
+}
+
+.fourth-part {
+    background: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -5rem;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: black 
+}
+
+.home-first,
+.home-second {
+    flex: 1; 
+    padding: 20px;
+    font-size: 1.2rem; 
+}
+.home-second h3{
+    color: aliceblue;
+}
+
+.home-second ul .link {
+    display: block; 
+    margin-bottom: 10px; 
+    text-decoration: none; 
+    color: white; 
+}
+
+.home-second ul .link:hover {
+    text-decoration: underline; 
+}
+.home-second img{
+    width: 50px;
+    border-radius: 10px;
+}

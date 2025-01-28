@@ -1,0 +1,10 @@
+.about{
+    text-align: start;
+}
+.about-container{
+    background: rgba(255, 255, 255, 0.2);
+  /* Hafif beyaz arka plan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Gölge efekti */
+  padding: 20px;
+}

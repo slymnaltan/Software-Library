@@ -1,0 +1,40 @@
+.paragraph{
+    text-align: start;
+    background: rgba(255, 255, 255, 0.2); /* Hafif beyaz arka plan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    padding: 20px;
+}
+.soft-field{
+    text-align: start;
+    padding: 15px 0;
+}
+.field-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field-part {
+    flex: 1;
+    padding-right: 20px; /* Sağ tarafta boşluk bırakır */
+    background: rgba(255, 255, 255, 0.2); /* Hafif beyaz arka plan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    padding: 20px;
+}
+
+.field-image {
+    flex: 1;
+}
+
+.field-image img {
+    max-width: 90%; /* Resmin konteynıra sığmasını sağlar */
+    height: auto;
+    border-radius: 10px; /* İsteğe bağlı: Köşeleri yuvarlar */
+}
+.title{
+    font-size: 2.2rem;
+    color: purple;
+}
+.subtitle{
+    font-size: 1.4rem;
+}
