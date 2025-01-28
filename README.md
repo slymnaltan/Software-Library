@@ -1,8 +1,8 @@
-# React + Vite
+# Software Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website guiding the software engineer students to choose their learning path.
+-In navbar we have five link . Home , fields , languages , pratice and about. 
+-User can read and investigate development field in fields area.
+-In languages , user can learn software language according to choosing filter.
+-In practice ,user can practice to develop their coding skilss.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
